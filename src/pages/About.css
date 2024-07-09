@@ -1,0 +1,85 @@
+#about-info {
+  min-height: 50vh;
+  background: rgb(159, 247, 246);
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+#about img {
+  width: 230px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #000;
+}
+
+#about img:hover {
+  width: 250px;
+  transition: all .5s ease;
+}
+
+#about span:hover {
+  color: #1622c9;
+  filter: drop-shadow(0 0 0.75rem purple);
+  text-shadow: 0 0 20px purple, 0 0 40px purple;
+  transition: all 0.4s ease;
+}
+
+#about span {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(239, 6, 111);
+}
+
+#about {
+  background: rgb(159, 247, 246);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.card shadow {
+  background: rgb(159, 247, 246);
+
+}
+
+.card {
+  background: rgb(159, 247, 246);
+
+}
+
+* {
+  font-family: Play;
+}
+
+p {
+  font-size: 20px;
+  color: #444;
+}
+
+.slide-left {
+  animation: 3s slide-left;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
